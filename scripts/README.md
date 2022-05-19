@@ -5,7 +5,7 @@ First, please unzip the 7zipped files in the data directory. Then you can run th
 Assuming you will unzip files in the data directory:<br>
 
 ```.bash
-python  process_data.py --data_path ../data/ --site ell.stackexchange.com --output_file ../data/ell --map_file ../data/ell.mapping
+python process_data.py --data_path ../data/ --site ell.stackexchange.com --output_file ../data/ell --map_file ../data/ell.mapping
 python process_data.py --data_path ../data/ --site english.stackexchange.com --output_file ../data/eng --map_file ../data/eng.mapping
 python merge_data.py --data_dir ../data/
 python process_for_clustering.py --data_dir ../data/
