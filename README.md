@@ -15,7 +15,6 @@ Please check out the data directory to get the original data dumps (Original dat
 ## Citation
 If you find this work useful for your research, please cite our paper:
 
-#### ELQA: A Corpus of Questions and Answers about the English Language
 ```
 @article{behzad-etal-2022-elqa,
   title={ELQA: A Corpus of Questions and Answers about the English Language},
