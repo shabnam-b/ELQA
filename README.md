@@ -9,6 +9,8 @@ This repository provides data and codes for the following papaer:
 
 The project was tested using Python 3.7. <br>
 
+Please make sure you clone the repository using git LFS <br>
+
 Please check out the data directory to get the original data dumps (Original data from [here](https://archive.org/details/stackexchange), Publication date: 2021-12-06, Contributor: Stack Exchange Community). Please adhere to Stack Exchange guidelines if using the data. Our scripts for processing the data are available in the scripts directory along with instructions. <br>
 
 

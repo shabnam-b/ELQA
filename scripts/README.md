@@ -1,6 +1,7 @@
 ## Instructions
 
-First, please unzip the 7zipped files in the data directory. Then you can run the following commands one by one to get data in JSON format, and also train/dev/test splits for the tasks described in the paper. <br>
+First, please unzip the 7zipped files in the data directory (you should have cloned the repository with git LFS since data files are large). <br>
+Then you can run the following commands one by one to get data in JSON format, and also train/dev/test splits for the tasks described in the paper. <br>
 
 Assuming you will unzip files in the data directory:<br>
 
