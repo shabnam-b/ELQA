@@ -7,16 +7,16 @@ This repository provides data and codes for our ACL 2023 papar:
 > [Shabnam Behzad](https://shabnam-b.github.io/), [Keisuke Sakaguchi](https://keisuke-sakaguchi.github.io/), [Nathan Schneider](https://people.cs.georgetown.edu/nschneid/), [Amir Zeldes](https://corpling.uis.georgetown.edu/amir/) <br>
 
 
-Please make sure you clone the repository using git LFS <br>
+Make sure you have git LFS installed before cloning this repository. <br>
 
 Original data was collected from [here](https://archive.org/details/stackexchange), Publication date: 2021-12-06, Contributor: Stack Exchange Community. Please adhere to Stack Exchange guidelines if using the data. <br><br>
 
 
-To get train/dev/spalits for the QA task, run:
+To get train/dev/test splits for the QA task, run:
 ```shell script
 python QA_splits.py
 ```
-You will find output tsv files will be in "data" directory. The project was tested using Python 3.8. <br> <br>
+You will find output tsv files in "data" directory. The project was tested using Python 3.8. <br> <br>
 
 To train T5 models, please refer to [T5x GitHub page](https://github.com/google-research/t5x#training). <br><br>
 
