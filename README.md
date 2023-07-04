@@ -7,7 +7,11 @@ This repository provides data and codes for our ACL 2023 papar:
 > [Shabnam Behzad](https://shabnam-b.github.io/), [Keisuke Sakaguchi](https://keisuke-sakaguchi.github.io/), [Nathan Schneider](https://people.cs.georgetown.edu/nschneid/), [Amir Zeldes](https://corpling.uis.georgetown.edu/amir/) <br>
 
 
-Make sure you have git LFS installed before cloning this repository. <br>
+Make sure you have git LFS installed before cloning this repository.
+```shell script
+git lfs install
+git lfs clone https://github.com/shabnam-b/ELQA.git
+```
 
 Original data was collected from [here](https://archive.org/details/stackexchange), Publication date: 2021-12-06, Contributor: Stack Exchange Community. Please adhere to Stack Exchange guidelines if using the data. <br><br>
 
