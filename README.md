@@ -11,15 +11,16 @@ The project was tested using Python 3.8. <br>
 
 Please make sure you clone the repository using git LFS <br>
 
-Original data was collected from [here](https://archive.org/details/stackexchange), Publication date: 2021-12-06, Contributor: Stack Exchange Community. Please adhere to Stack Exchange guidelines if using the data. <br>
+Original data was collected from [here](https://archive.org/details/stackexchange), Publication date: 2021-12-06, Contributor: Stack Exchange Community. Please adhere to Stack Exchange guidelines if using the data. <br><br>
 
 
 To get train/dev/spalits for the QA task, run:
 ```shell script
 python QA_splits.py
 ```
-Output tsv files will be in "data" directory. <br>
-To train T5 models, please refer to [T5x GitHub page](https://github.com/google-research/t5x#training) <br>
+You will find output tsv files will be in "data" directory. <br> <br>
+
+To train T5 models, please refer to [T5x GitHub page](https://github.com/google-research/t5x#training). <br><br>
 
 ** Human evaluation scores will be available soon! ** <br>
 
